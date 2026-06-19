@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, ChannelType } = require('discord.js');
 const dotenv = require('dotenv')
 const cron = require('node-cron');
 
-dotenv()
+dotenv.config();
 const FORUM_CHANNEL_ID = process.env.FORUM_CHANNEL_ID;
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 
