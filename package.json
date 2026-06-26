@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/dbfernandes/bot-ada#readme",
   "dependencies": {
+    "date-holidays": "^3.30.2",
     "discord.js": "^14.26.4",
     "dotenv": "^17.4.2",
     "node-cron": "^4.4.1"
